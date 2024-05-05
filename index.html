@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FossFile - A Privacy-Focused Generated Profile Picture</title>
+<link rel="icon" type="image/x-icon" href="icons/FOSSFILE-LOGO.png">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="container">
+    <canvas id="canvas" width="200" height="200"></canvas>
+    <br>
+    <button onclick="generateProfilePic()">Generate</button>
+    <button onclick="exportImage()">Export</button>
+    <select id="format">
+        <option value="webp">WebP</option>
+        <option value="png">PNG</option>
+        <option value="jpg">JPG</option>
+    </select>
+    <br>
+    <label for="filename">File Name:</label>
+    <input type="text" id="filename" value="profile_pic">
+    <br>
+    <label for="dimensions">Dimensions:</label>
+    <select id="dimensions">
+        <option value="100x100">100x100</option>
+        <option value="250x250">250x250</option>
+        <option value="400x400">400x400</option>
+        <option value="500x500">500x500</option>
+        <option value="750x750">750x750</option>
+        <option value="1000x1000">1000x1000</option>
+    </select>
+    <footer>
+        Designed & Made By Adrian For Privacy-Focused Profile Pics v1.0
+    </footer>
+</div>
+<!-- If you're curious enough to peek inside here, perhaps you'd like to lend a hand in making this even better :) -->
+<script src="core/script.js"></script>
+</body>
+</html>
