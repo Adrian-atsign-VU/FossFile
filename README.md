@@ -1,6 +1,6 @@
 # FossFile (FOSS/Profile)
 - App Icon:
-  ![App Icon](link-to-icon-image)
+  ![App Icon](https://raw.githubusercontent.com/Adrian-atsign-VU/FossFile/main/icons/FOSSFILE-LOGO.png)
 
 Welcome to FossFile Web Tool! This tool is designed for people who want to use profile pictures. 
 You can edit the code as long as you give credit.
@@ -14,7 +14,7 @@ This way, you can protect your privacy by not leaking your actual profile pictur
 To use FossFile (FOSS/Profile), simply open `index.html` in your web browser.
 
 - App Image:
-  ![App Image](link-to-app-image)
+  ![App Image](https://raw.githubusercontent.com/Adrian-atsign-VU/FossFile/main/app.png)
 
 ## Core Version
 This is the core version of FossFile (FOSS/Profile). While there are no plans to add more features, the GUI and dimensions could use a little work. Keeping it at 100x100 dimensions is considered the best for now.
